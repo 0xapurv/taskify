@@ -2,7 +2,6 @@
 
 <div align="center">
 
-![Taskify Logo](assets/icons/taskify_icon.png)
 
 **A beautiful, modern task management application built with Flutter**
 
@@ -21,19 +20,22 @@
   
 **Main Screen** | **Task Creation** | **Task Completion**
 ---|---|---
-![Main Screen](screenshots/main_screen.png) | ![Task Creation](screenshots/add_task.png) | ![Task Completion](screenshots/task_completed.png)
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-07-12 at 23 29 22" src="https://github.com/user-attachments/assets/6cf5b60e-154b-4bc2-98af-eab0d7a69774" /> | <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-07-12 at 23 28 02" src="https://github.com/user-attachments/assets/b46e74f6-d6cc-4321-bb96-a3a5a5c9f009" /> | <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-07-12 at 23 29 22" src="https://github.com/user-attachments/assets/bdcb2add-3685-4cd3-818c-d4b6aba4cc58" />
 
-**Dark Theme** | **Filter View** | **Empty State**
+**Update Task** | **Pending Tasks** | **Empty State**
 ---|---|---
-![Dark Theme](screenshots/dark_theme.png) | ![Filter View](screenshots/filter_view.png) | ![Empty State](screenshots/empty_state.png)
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-07-12 at 23 29 30" src="https://github.com/user-attachments/assets/1703b574-e92c-43f3-91c1-f2771237ec24" /> | <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-07-12 at 23 29 47" src="https://github.com/user-attachments/assets/0cab8c9d-7c30-422b-a979-ef9e087e6a34" /> | <img width="1206" height="2622" alt="Simulator Screenshot - iPhone 16 Pro - 2025-07-12 at 23 27 58" src="https://github.com/user-attachments/assets/e3c5d74f-171c-4377-a917-61ed51d285f0"/>
+
+
+
+
+
 
 </div>
 
-### 🎥 Demo Video
-<!-- Add your demo video link here -->
-[![Taskify Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+### 🎥 Apk Drive Link
 
-**Watch the full demo:** [Taskify App Demo](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[APK](https://drive.google.com/file/d/1o3ZZpdKaVy7nIs2zYUwkW66OgkENZo0S/view?usp=sharing)
 
 ## ✨ Features
 
@@ -43,6 +45,7 @@
 - **Task Completion**: Mark tasks as complete with visual feedback and celebration animations
 - **Real-time Statistics**: Live task counters for total, active, and completed tasks
 - **Data Persistence**: Automatic local storage using SharedPreferences
+
 
 ### 🎨 Modern UI/UX
 - **Material Design 3**: Latest Material Design principles and components
@@ -168,76 +171,6 @@ Color get taskCompletedColor => const Color(0xFF34D399);
 3. **Views**: Create new UI components in `lib/views/`
 4. **Theme**: Customize appearance in `lib/theme/app_theme.dart`
 
-## 📊 Key Features in Detail
-
-### Task Management System
-- **Task Creation**: Add tasks with title and optional description
-- **Task Editing**: Modify existing tasks inline
-- **Task Deletion**: Remove tasks with confirmation
-- **Completion Tracking**: Visual indicators and timestamps
-- **Bulk Operations**: Clear all completed tasks
-
-### Smart Filtering
-- **All Tasks**: View complete task overview
-- **Active Tasks**: Focus on pending items
-- **Completed Tasks**: Review finished work
-- **Real-time Counters**: Live statistics for each category
-
-### Data Persistence
-- **Automatic Saving**: Changes saved immediately
-- **JSON Serialization**: Efficient data storage
-- **Error Handling**: Graceful fallbacks for data corruption
-- **Cross-session Persistence**: Data survives app restarts
-
-### Animation System
-- **Task Completion**: Celebration animations with confetti effects
-- **Smooth Transitions**: Animated state changes
-- **Staggered Animations**: Sequential task list animations
-- **Interactive Feedback**: Visual responses to user actions
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature/amazing-feature`
-3. **Commit your changes**: `git commit -m 'Add amazing feature'`
-4. **Push to the branch**: `git push origin feature/amazing-feature`
-5. **Open a Pull Request**
-
-### Development Guidelines
-- Follow Flutter best practices and conventions
-- Use meaningful commit messages
-- Add tests for new features
-- Update documentation as needed
-- Follow the existing code style
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Flutter Team**: For the amazing framework
-- **Material Design**: For design inspiration
-- **Google Fonts**: For beautiful typography
-- **Provider Package**: For state management solution
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/taskify/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/taskify/discussions)
-- **Email**: your.email@example.com
-
-## 🔗 Links
-
-- **Live Demo**: [Taskify Web App](https://taskify-demo.web.app)
-- **Download APK**: [Google Drive](https://drive.google.com/file/d/12ioDPCYEc7T13WjcsYhVc6sD59KK5Rj5/view?usp=sharing)
-- **Documentation**: [Wiki](https://github.com/yourusername/taskify/wiki)
-
----
-
-<div align="center">
 
 **Built with ❤️ using Flutter**
 
